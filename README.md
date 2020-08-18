@@ -1,4 +1,4 @@
-# androidReadWriteTo
+# androidReadWriteToSD
 ## Idea
 This GitHub project can help you this android development if you want to have a fast methods for saving and reading data from txt files in external storage.
 ## Methods

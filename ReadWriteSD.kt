@@ -151,7 +151,7 @@ class ReadWriteSD(private val tag: String, private val activity:Activity) {
         var value = ""
         try {
             var info = readFile(filename)
-            Log.d(tag, "File OfflineMultiple has been found")
+            Log.d(tag, "File $filename has been found")
             if(info == "error"){
                 writeToSDFile(filename, basicMeaning)
                 Log.d(tag, "File $filename has been created")
